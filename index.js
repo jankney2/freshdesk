@@ -1,6 +1,8 @@
 require('dotenv').config()
 const axios=require('axios')
 
+const {KEY}=process.env
+
 let results=[]
 
 const getter=async (startPage)=>{
